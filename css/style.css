@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  /*Change font*/
+  body {
+    /*background-color: mediumaquamarine;*/
+    background-color:  #273441;
+    /*font-family: "Helvetica Neue", sans-serif;*/
+    font-family: "Fira Code", sans-serif;
+	  margin: 0;
+	  padding: 0;
+  }
+  
+#particles-js {
+  background: url(../img/background.jpg) no-repeat center top;
+  /*padding-top:200px;*/
+  text-align:center;
+  background-attachment: relative;
+  background-position: center center;
+  position: relative;
+  height: 750px;
+  min-height: 500px;
+  width: 100%;
+  
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*Transparent Box*/ 
+.prof-box {
+
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  color: white;
+  max-width: 80%;
+  padding: 1em 2em;
+
+
+  background: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align:center;
+  text-shadow: 0px 0px 2px #131415;
+
+}
+
+.prof-box h1 {
+  
+  font-size: 52px;
+  color: white;
+
+}
+  
+.prof-box h3 {
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+
+}
+
+* { color:#fff; text-decoration: none;}
+}
+
+.prof-box h3 a {
+  color: #fff;
+}
+
+
+.prof-box .social-icons {
+  margin: 20px;
+  font-size: 40px;
+}
+
+
+.about {
+  position: relative;
+  background:rgba(0, 0, 0, 0.3);
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 200px;
+  padding-right: 70px;
+
+}
+
+
+.about > div {
+  padding: 1em;
+}
+
+.about .profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.about1 {
+  color: white;
+
+}
+.about1 h3{
+  color: white;
+}
+.about1 p {
+  font-size: 16px;
+  color: rgb(165, 164, 164);
+}
+
+.about3 {
+  color: rgb(165, 164, 164);
+  padding-left: 150px;
+}
+.about3 p{
+  font-size: 18px;
+  color: rgb(165, 164, 164);
+}
+.about3 a{
+  font-size: 18px;
+  color: rgb(165, 164, 164);
+}
+
+.about2 {
+  color: rgb(165, 164, 164);
+  padding-left: 30px;
+
+}
+
+.about2 p{
+  font-size: 20px;
+  color: rgb(165, 164, 164);
+}
+
+@media (max-width: 990px) {
+  .about {
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    
+  }
+  .about1 {
+    padding-top: 50px;
+  }
+  .about2 {
+    padding-left: 0%;
+    padding-top: 30px;
+  }
+  .about3 {
+    padding-left: 0%;
+  }
+}
+
+
+/* Global Values */
+
+.desc {
+
+  border-radius: 20px;
+  background: darkgray;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 90%;
+  margin: 20px auto;
+  
+}
+
+.desc h5 {
+  color: white;
+}
+
+.desc p {
+  color: saddlebrown;
+}
+
+.desc t {
+  color: teal;
+  font-weight: 700;
+}
+
+.desc imp {
+  padding: 6px;
+  color: white;
+  border-radius: 10px;
+  background: #34495e;
+}
+
+.desc more {
+  color: black;
+}
+
+
+sm {
+  font-size: 12px;
+}
+
+.desc .col-lg-3 {
+  text-transform: uppercase;
+  
+}
+
+.container .row p.tight {
+  margin-bottom: 10px;
+}
+
+
+
+/********** Work **********/
+.main {
+  border-radius: 20px;
+  /*background:  #466061;*/
+  /*background: indianred;*/
+  background:  rgb(127, 143, 175);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 80%;
+  margin: 20px auto;
+/*
+  max-width: 1000px;
+  margin: auto;*/
+}
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  border-radius: 10px;
+  background-color: rgb(74, 70, 80);
+  padding: 10px;
+}
+.content h3 {
+  background: #9b59b6;
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+
+  /*border-radius: 6px 6px 0 0;*/
+  border-radius: 6px;
+  position: relative;
+}
+
+.content h3:hover {
+  background: #9966ff;
+}
+
+.content p {
+  font-size: 12px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+      width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+  }
+}
+
+
+
+/****************************/
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0,0,0,0.4);
+  color: #fff;
+  height: 60px; }
+
+
+
+
