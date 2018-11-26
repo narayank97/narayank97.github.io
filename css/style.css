@@ -1,20 +1,53 @@
 * {
+
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
+  @font-face {
+    src:url(../font/Hansief.otf);
+    font-family: Hansief;
+  }
+  @font-face {
+    src:url(../font/norwester.otf);
+    font-family: norwester;
+  }
+  @font-face {
+    src:url(../font/Henrik-Regular.otf);
+    font-family: Henrik-Regular;
+  }
+  @font-face {
+    src:url(../font/CreteRound-Regular.ttf);
+    font-family: CreteRound-Regular;
+  }
+  @font-face {
+    src:url(../font/Bitter-Bold.otf);
+    font-family: Bitter-Bold;
+  }
   /*Change font*/
   body {
     /*background-color: mediumaquamarine;*/
-    background-color:  #273441;
-    /*font-family: "Helvetica Neue", sans-serif;*/
-    font-family: "Fira Code", sans-serif;
+    background-color:  #252726;
+    /* background:  url(../img/1.jpg)center; */
+     font-family: "norwester";
+    /* font-family: "Roboto", sans-serif; */
 	  margin: 0;
 	  padding: 0;
   }
-  
+  h1{
+    font-size: 60px;
+    color: #1A54A7;
+    font-weight: bold;
+  }
+  h4{
+    color: #38c780;/*#ff4d4d;*/
+    font-weight: bold;
+
+  }
+
 #particles-js {
-  background: url(../img/background.jpg) no-repeat center top;
+   background: url(../img/background.jpg) no-repeat center top;
+   font-family: Bitter-Bold;
   /*padding-top:200px;*/
   text-align:center;
   background-attachment: relative;
@@ -23,7 +56,7 @@
   height: 750px;
   min-height: 500px;
   width: 100%;
-  
+
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -36,14 +69,14 @@
 }
 
 
-/*Transparent Box*/ 
+/*Transparent Box*/
 .prof-box {
 
   position: absolute;
   top: 40%;
   right: 50%;
   transform: translate(50%,-50%);
-  color: white;
+  color: Navy;
   max-width: 80%;
   padding: 1em 2em;
 
@@ -57,12 +90,12 @@
 }
 
 .prof-box h1 {
-  
+
   font-size: 52px;
   color: white;
 
 }
-  
+
 .prof-box h3 {
   margin: 30px;
   font-size: 20px;
@@ -86,9 +119,10 @@
 
 .about {
   position: relative;
-  background:rgba(0, 0, 0, 0.3);
+  /* background:rgba(0, 0, 0, 0.3); */
+  /* background:  url(../img/1.jpg)center; */
   padding-top: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 25px;
   padding-left: 200px;
   padding-right: 70px;
 
@@ -96,29 +130,36 @@
 
 
 .about > div {
-  padding: 1em;
+  padding: 0em;
 }
 
 .about .profile-pic {
-  width: 200px;
-  height: 200px;
+  padding-left: 10px;
+  width: 250px;
+  height: 250px;
   border-radius: 100%;
 }
 .about1 {
-  color: white;
+  /* padding-left: 150px; */
+  color: red;
 
 }
-.about1 h3{
-  color: white;
+.about1 h4{
+  /* font-size: 16px; */
+  color: red;
 }
 .about1 p {
+  padding-top: 30px;
+  padding-left: 30px;
   font-size: 16px;
   color: rgb(165, 164, 164);
 }
 
 .about3 {
+  font-family: Bitter-Bold;
   color: rgb(165, 164, 164);
-  padding-left: 150px;
+  padding-left: 232px;
+  padding-right: 0px;
 }
 .about3 p{
   font-size: 18px;
@@ -131,7 +172,11 @@
 
 .about2 {
   color: rgb(165, 164, 164);
-  padding-left: 30px;
+  font-family: Bitter-Bold;
+  /* color: rgb(0, 0, 0); */
+  /* background: Navy; */
+  /* color: Navy; */
+  padding-left: 180px;
 
 }
 
@@ -145,54 +190,68 @@
     text-align: center;
     padding-left: 0%;
     padding-right: 0%;
-    
+
   }
   .about1 {
+    color: #1A54A7;
     padding-top: 50px;
   }
   .about2 {
+    color: #1A54A7;
     padding-left: 0%;
     padding-top: 30px;
   }
   .about3 {
-    padding-left: 0%;
+    color: #1A54A7;
+    padding-left: 20px;
   }
 }
+/*#1A54A7*/
 
 
-/* Global Values */
+/* job resume*/
 
 .desc {
-
-  border-radius: 20px;
-  background: darkgray;
+  background: #4B4B4C;
+  border-radius: 10px;
+  /*background: #4B4B4C;*/
+  /* background: #; */
+  /* background:  url(../img/dark-triangles.png)center; */
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
   width: 90%;
   margin: 20px auto;
-  
+
 }
 
 .desc h5 {
+  font-size: 15px;
+  font-family: Bitter-Bold;
+  border-radius: 5px;
+  text-align: center;
+  background: #38c780;/*#1A54A7;*/
   color: white;
 }
 
 .desc p {
-  color: saddlebrown;
+  /* background: black; */
+  color: #38c780;/*#1A54A7;*/
 }
 
 .desc t {
-  color: teal;
+  font-size: 20px;
+  font-family: Bitter-Bold;
+  color: white;
   font-weight: 700;
 }
 
 .desc imp {
   padding: 6px;
-  color: white;
+  color: black;
   border-radius: 10px;
-  background: #34495e;
+  background: #38c780;/*#1A54A7;*/
 }
 
 .desc more {
@@ -206,7 +265,7 @@ sm {
 
 .desc .col-lg-3 {
   text-transform: uppercase;
-  
+
 }
 
 .container .row p.tight {
@@ -215,12 +274,13 @@ sm {
 
 
 
-/********** Work **********/
+/********** projects **********/
 .main {
   border-radius: 20px;
-  /*background:  #466061;*/
+  /* background:  gray; */
   /*background: indianred;*/
-  background:  rgb(127, 143, 175);
+   /* background:  #9F9FA0; */
+  /* background:  url(../img/dark-triangles.png)center; */
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
@@ -240,16 +300,18 @@ sm {
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-  padding: 8px;
+  display: flex;
+  padding: 12px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
+
   float: left;
-  width: 25%;
+  width: 33%;
 }
 
-/* Clear floats after rows */ 
+/* Clear floats after rows */
 .row:after {
   content: "";
   display: table;
@@ -259,27 +321,65 @@ sm {
 /* Content */
 .content {
   border-radius: 10px;
-  background-color: rgb(74, 70, 80);
+  background-color: #4B4B4C;
   padding: 10px;
 }
 .content h3 {
-  background: #9b59b6;
+  font-family: Bitter-Bold;
+  background: #1A54A7;
+  text-align: center;
   padding: 15px;
   margin: 0;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
 
   /*border-radius: 6px 6px 0 0;*/
-  border-radius: 6px;
+  border-radius: 20px;
   position: relative;
 }
 
 .content h3:hover {
-  background: #9966ff;
+  font-family: Bitter-Bold;
+  background: Navy;
+  border-radius: 20px;
 }
 
 .content p {
-  font-size: 12px;
+  text-align: center;
+  /* text-align: justify; */
+  font-size: 15px;
+}
+.zombiegame{
+  font-family: Bitter-Bold;
+  text-align: center;
+  padding-top:15px;
+}
+.zombiegame2{
+  padding-top: 20px;
+  padding-left:150px;
+  padding-right:150px;
+  text-align:justify;
+
+}
+.titleproject h1{
+  /* text-align: center; */
+  color: #1A54A7;
+  padding-bottom:5px;
+  padding-top:45px;
+  padding-Left:80px;
+  font-family: "Bitter-Bold";
+  /* font-family: "Helvetica Neue"; */
+    /* font-weight: 900; */
+    /* font-size: 30px; */
+}
+.titlecheckout{
+  font-family: Bitter-Bold;
+  text-align: center;
+  /* font-family: "Helvetica Neue",bold; */
+  padding-top: 50px;
+  padding-bottom: 15px;
+    /* font-size: 25px; */
+    /* font-size: 20px; */
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -302,10 +402,6 @@ sm {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: rgba(0,0,0,0.4);
+  background: black;
   color: #fff;
   height: 60px; }
-
-
-
-

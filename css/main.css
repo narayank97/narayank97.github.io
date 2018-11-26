@@ -1,6 +1,8 @@
 body {
-  background-color: #f2f2f2;
-  font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
+  /*#1A54A7;*/
+  /* background-color: #f2f2f2; */
+  background-color: #2F28B6;
+  font-family: "Roboto"; /* OPTIONAL: Google Fonts - base font */
   font-weight: 300;
   font-size: 16px;
   color: #555;
@@ -11,7 +13,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
+  font-family: "Roboto"; /* OPTIONAL: Google Fonts - title font */
   font-weight: 300;
   color: #333;
 }
@@ -28,7 +30,7 @@ p {
 
 /* Links */
 a {
-  color: #1CBCAD;
+  color: blue;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -40,7 +42,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #7b7b7b;
+  color: blue;
   text-decoration: none;
   outline: 0;
 }
@@ -69,7 +71,8 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: #1CBCAD;
+  /* background: #1CBCAD; */
+  background: black;
   background: url(../images/header-bg.jpg) no-repeat center top;
   padding-top:140px;
   text-align:center;
@@ -77,7 +80,7 @@ a:after {
   background-position: center center;
   min-height: 500px;
   width: 100%;
-  
+
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -90,8 +93,9 @@ a:after {
 }
 
 .header h1 {
-  font-size: 80px;
-  color: white;
+  font-size: 200px;
+  font-weight: bold;
+  color: #1A54A7;
   background: rgba(0,0,0,0.2);
 }
 
@@ -101,7 +105,7 @@ a:after {
 }
 
 .header h3 a {
-  color: #fff;
+  color: white;
 }
 
 /* About Wrap */
@@ -110,7 +114,7 @@ a:after {
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
-} 
+}
 
 .about h5, p {
   color: white;
@@ -124,17 +128,18 @@ a:after {
 }
 
 .footer {
-  background: #2f2f2f;
+  /* background: #2f2f2f; */
+  background: #2F28B6;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .footer p {
-  color: white;
+  color: blue;
 }
 
 .footer h5 {
-  color: white;
+  color: blue;
 }
 
 .footer t {
@@ -151,21 +156,21 @@ a:after {
 
 .desc {
   padding-top: 50px;
-}
+}2
 
 .desc p {
-  color: #2f2f2f;
+  color: #2F28B6;
 }
 
 .desc t {
-  color: #34495e;
+  color: #2F28B6;
   font-weight: 700;
 }
 
 .desc imp {
   padding: 6px;
-  color: white;
-  background: #34495e;
+  color: blue;
+  background: #2F28B6;
 }
 
 .desc more {
@@ -204,11 +209,11 @@ body {
 
 @-webkit-keyframes fadeIn {
   0% {
-    opacity: 0; 
+    opacity: 0;
   }
 
   100% {
-    opacity: 1; 
+    opacity: 1;
   }
 }
 
@@ -239,7 +244,7 @@ body {
 
   100% {
     opacity: 1;
-  } 
+  }
 }
 
 .fadeIn {
